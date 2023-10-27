@@ -1,0 +1,35 @@
+<html>
+
+<body>
+    <h1>Hello from index.html </h1>
+
+    <!-- The HTTP method that the browser uses to submit the form -->
+    <h3>Get Method</h3>
+    <!-- The URI of a program that processes the form information -->
+    <form action="/name" method="GET">
+        <label>Firstname:</label>
+        <input type="text" name="fname" value="James" /><br>
+
+        <label>Lastname:</label>
+        <input type="text" name="lname" value="Doonan" /><br>
+
+        <input type="submit" value="submit">
+
+    </form>
+
+
+    <h3>Post Method</h3>
+    <!-- form data are included in the body of the form and sent to the server.-->
+    <form action="/name" method="POST">
+        <label>Firstname:</label>
+        <input type="text" name="fname" value="James" /><br>
+
+        <label>Lastname:</label>
+        <input type="text" name="lname" value="Doonan" /><br>
+
+        <input type="submit" value="submit">
+
+    </form>
+</body>
+
+</html>
